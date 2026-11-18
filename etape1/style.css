@@ -1,0 +1,29 @@
+table{
+    width : 80%;
+    border-collapse:collapse;
+}
+
+td{
+    border : 1px solid #ddd;
+    padding : 8px;
+}
+
+tr:first-child{
+    background-color : #008cba;
+    color : white;
+    text-align:center;
+}
+
+.col_number{
+    text-align:center;
+    width : 8%;
+}
+
+.col_text{
+    text-align:left;
+}
+
+.col_chkbox{
+    text-align:center;
+    width : 8%;
+}

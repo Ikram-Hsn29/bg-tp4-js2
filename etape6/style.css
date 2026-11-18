@@ -1,0 +1,113 @@
+
+/* Conteneur principal */
+#table_container {
+    width: 80%;
+    margin: 30px auto;
+    font-family: Calibri, sans-serif;
+}
+
+/* Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Entête */
+th {
+    background-color: #0784B5;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Cellules */
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Classes des colonnes */
+.col_number {
+    text-align: center;
+    width: 10%;
+}
+
+.col_text {
+    text-align: left;
+}
+
+.col_chkbox {
+    text-align: center;
+    width: 10%;
+}
+
+/* Espace résumé */
+#container_summary {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+#container_summary p {
+    margin: 3px;
+}
+
+/* Formulaire */
+#form_container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 5px;
+}
+
+.form_group {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.form_label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form_field {
+    width: 110px;
+}
+
+/* Boutons */
+button {
+    cursor: pointer;
+    padding: 5px 8px;
+}
+
+.btn-add {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.btn-consol {
+    background-color: #B8860B;
+    color: white;
+    border: none;
+}
+
+.btn-del {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+/* Conteneur des boutons */
+#container_btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+}
