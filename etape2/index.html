@@ -1,48 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
+    <!-- Encodage des caractères -->
     <meta charset="UTF-8">
+
+    <!-- Titre de la page -->
     <title>Document</title>
-    <link rel = "stylesheet" href="style.css">
+
+    <!-- Liaison avec la feuille de style CSS -->
+    <link rel="stylesheet" href="style.css">
+
 <head>
+
 <body>
+
+    <!-- Tableau principal -->
     <table border="1" id="table_body">
+
+        <!-- Ligne d'en-tête -->
         <tr>
-            <td class ="col_number">Numero</td>
-            <td class = "col_text">Nom</td>
-            <td class = "col_text">Prenom</td>
-            <td class = "col_text">Points</td>
-            <td class = "col_chkbox">Select</td>
+            <td class="col_number">Numero</td>
+            <td class="col_text">Nom</td>
+            <td class="col_text">Prenom</td>
+            <td class="col_text">Points</td>
+            <td class="col_chkbox">Select</td>
         </tr>
+
+        <!-- Première ligne de données -->
         <tr>
-            <td class ="col_number">1</td>
-            <td class ="col_text">Nom1</td>
-            <td class ="col_text">Prenom1</td>
-            <td class ="col_text">5</td>
-            <td class ="col_chkbox">
-            <input type = "checkbox"></td>
+            <td class="col_number">1</td>
+            <td class="col_text">Nom1</td>
+            <td class="col_text">Prenom1</td>
+            <td class="col_text">5</td>
+            <td class="col_chkbox">
+                <input type="checkbox">
+            </td>
         </tr>
+
+        <!-- Deuxième ligne de données -->
         <tr>
-            <td class ="col_number">2</td>
-            <td class ="col_text">Nom2</td>
-            <td class ="col_text">Prenom2</td>
-            <td class ="col_text">5</td>
-            <td class ="col_chkbox">
-            <input type = "checkbox"></td>
+            <td class="col_number">2</td>
+            <td class="col_text">Nom2</td>
+            <td class="col_text">Prenom2</td>
+            <td class="col_text">5</td>
+            <td class="col_chkbox">
+                <input type="checkbox">
+            </td>
         </tr>
+
+        <!-- Troisième ligne de données -->
         <tr>
-            <td class ="col_number">3</td>
-            <td class ="col_text">Nom3</td>
-            <td class ="col_text">Prenom3</td>
-            <td class ="col_text">5</td>
-            <td class ="col_chkbox">
-            <input type = "checkbox"></td>
+            <td class="col_number">3</td>
+            <td class="col_text">Nom3</td>
+            <td class="col_text">Prenom3</td>
+            <td class="col_text">5</td>
+            <td class="col_chkbox">
+                <input type="checkbox">
+            </td>
         </tr>
 
     </table>
+
+    <!-- Slide 129 : événement onclick -->
     <button onclick="doInsertRowTable(99,'nom','prenom',10);">
         Ajouter
     </button>
+
+    <!-- Slide 24 : fichier JavaScript externe -->
     <script src="script.js"></script>
+
 </body>
+
 </html>

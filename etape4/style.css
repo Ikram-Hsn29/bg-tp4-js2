@@ -1,4 +1,3 @@
-
 /* Conteneur principal */
 #table_container {
     width: 80%;
@@ -12,7 +11,7 @@ table {
     border-collapse: collapse;
 }
 
-/* Entête */
+/* En-tête */
 th {
     background-color: #0784B5;
     color: white;
@@ -26,22 +25,24 @@ td {
     padding: 8px;
 }
 
-/* Classes des colonnes */
+/* Colonne numéro */
 .col_number {
     text-align: center;
     width: 10%;
 }
 
+/* Colonnes texte */
 .col_text {
     text-align: left;
 }
 
+/* Colonne checkbox */
 .col_chkbox {
     text-align: center;
     width: 10%;
 }
 
-/* Espace résumé */
+/* Résumé */
 #container_summary {
     background-color: #eeeeee;
     display: flex;
@@ -64,17 +65,20 @@ td {
     margin-bottom: 5px;
 }
 
+/* Groupe du formulaire */
 .form_group {
     display: flex;
     align-items: center;
     gap: 4px;
 }
 
+/* Labels */
 .form_label {
     font-size: 12px;
     font-weight: bold;
 }
 
+/* Champs */
 .form_field {
     width: 110px;
 }
@@ -85,18 +89,21 @@ button {
     padding: 5px 8px;
 }
 
+/* Bouton Ajouter */
 .btn-add {
     background-color: #28a745;
     color: white;
     border: none;
 }
 
+/* Bouton Console */
 .btn-consol {
     background-color: #B8860B;
     color: white;
     border: none;
 }
 
+/* Bouton Supprimer */
 .btn-del {
     background-color: red;
     color: white;

@@ -1,40 +1,59 @@
-
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
+
+    <!-- Encodage des caractères -->
     <meta charset="UTF-8">
+
+    <!-- Titre de la page -->
     <title>Etape 3</title>
+
+    <!-- Liaison avec la feuille de style CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Slide 24 : chargement d'un fichier JavaScript externe -->
     <script src="script.js" defer></script>
+
 </head>
+
 <body>
 
-<div id="table_container">
+    <!-- Conteneur principal -->
+    <div id="table_container">
 
-    <table>
-        <thead>
-            <tr>
-                <th class="col_number">N°</th>
-                <th class="col_text">Nom</th>
-                <th class="col_text">Prénom</th>
-                <th class="col_number">Points</th>
-                <th class="col_chkbox">Select</th>
-            </tr>
-        </thead>
+        <!-- Tableau des personnes -->
+        <table>
 
-        <tbody id="table_body">
-        </tbody>
-    </table>
+            <!-- En-tête du tableau -->
+            <thead>
+                <tr>
+                    <th class="col_number">N°</th>
+                    <th class="col_text">Nom</th>
+                    <th class="col_text">Prénom</th>
+                    <th class="col_number">Points</th>
+                    <th class="col_chkbox">Select</th>
+                </tr>
+            </thead>
 
-    <button onclick="doInsertRowTable(99, 'nom', 'prenom', 10)">
-        Ajouter
-    </button>
+            <!-- Corps du tableau rempli dynamiquement par JavaScript -->
+            <tbody id="table_body">
+            </tbody>
 
-    <button onclick="consoleTableau()">
-        Console Tableau
-    </button>
+        </table>
 
-</div>
+        <!-- Slide 129 : événement onclick -->
+        <button onclick="doInsertRowTable(99, 'nom', 'prenom', 10)">
+            Ajouter
+        </button>
+
+        <!-- Slide 129 : événement onclick -->
+        <button onclick="consoleTableau()">
+            Console Tableau
+        </button>
+
+    </div>
 
 </body>
+
 </html>

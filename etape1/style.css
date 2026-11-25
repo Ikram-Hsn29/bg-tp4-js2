@@ -1,29 +1,35 @@
+/* Tableau principal */
 table{
-    width : 80%;
-    border-collapse:collapse;
+    width: 80%;
+    border-collapse: collapse;
 }
 
+/* Style général des cellules */
 td{
-    border : 1px solid #ddd;
-    padding : 8px;
+    border: 1px solid #ddd;
+    padding: 8px;
 }
 
+/* Ligne d'en-tête */
 tr:first-child{
-    background-color : #008cba;
-    color : white;
-    text-align:center;
+    background-color: #008cba;
+    color: white;
+    text-align: center;
 }
 
+/* Colonne des numéros */
 .col_number{
-    text-align:center;
-    width : 8%;
+    text-align: center;
+    width: 8%;
 }
 
+/* Colonnes texte */
 .col_text{
-    text-align:left;
+    text-align: left;
 }
 
+/* Colonne des cases à cocher */
 .col_chkbox{
-    text-align:center;
-    width : 8%;
+    text-align: center;
+    width: 8%;
 }
